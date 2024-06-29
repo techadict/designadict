@@ -1,0 +1,91 @@
+/*smooth scroll*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*video play button edit*/
+.priority .hosted-video-thumbnail:after {
+    background-color: #155EEF;
+    border-radius: 10px;
+    color: #fff;
+    content: "\25b6";
+    cursor: pointer;
+    font-size: 30px;
+    height: 60px;
+    opacity: 1;
+    width: 100px;
+}
+.priority  .hosted-video-thumbnail:focus:after, .priority  .hosted-video-thumbnail:hover:after {
+    background-color: #155EEF;
+    opacity: .8;
+    animation: bounce 1.5s infinite;
+    animation-timing-function: ease-in;
+    transition: .2s;
+}
+
+/*menu Bold text & rounded hover*/
+.cnav-menu-NcRfVTN53O .nav-menu-item > a {
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Mobile Navigation */
+div#nav-menu-popup li.nav-menu-item {
+    border-radius: 20px;
+    padding: 12px !important;
+    margin-bottom: 10px;
+    background: #0B4071D4;
+    box-shadow: 0px 12px 50px -12px #fff;
+    margin-bottom: 15px !important;
+}
+
+div#nav-menu-popup li.nav-menu-item a,
+#nav-menu-popup .nav-menu .nav-menu-item:hover a,
+#nav-menu-popup .nav-menu-body .nav-menu .nav-menu-item:hover {
+    background: #0B4071D4 !important;
+}
+
+.nav-menu-mobile span.menu-icon {
+    box-shadow: 0px 10px 30px -10px rgba(255,142,96,0.39);
+    padding: 7px 12px 6px;
+    border-radius: 4px;
+}
+
+.nav-menu-mobile span::before {
+    font-size: 24px!important;
+    color: #188BF6 !important;
+}
+
+#nav-menu-popup .nav-menu-body .close-menu {
+    color: #fff !important;
+    font-size: 14px;
+    border-radius: 50%;
+    border: 2px solid #0B4071D4;
+    padding: 10px 12px;
+}
+
+#nav-menu-popup ul.nav-menu {
+    padding-top: 20px !important;
+}
+
+#nav-menu-popup .nav-menu-item-toggle {
+    font-size: 16px!important;
+    color: #fff;
+}
+
+#nav-menu-popup .nav-menu-item-toggle i {
+    font-size: 14px!important;
+}
+
+#nav-menu-popup .nav-dropdown-menu {
+    padding-top: 15px!important;
+    background: #0B4071D4;
+}
+
+#nav-menu-popup .nav-menu-body .nav-dropdown-menu .nav-menu-item {
+}
+
+#nav-menu-popup .nav-menu-body .nav-dropdown-menu .nav-menu-item a {
+    color: #fff!important;
+    line-height: 18px;
+}
