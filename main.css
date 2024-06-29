@@ -1,9 +1,4 @@
 <style>
-/*smooth scroll*/
-html {
-    scroll-behavior: smooth;
-}
-
 /*video play button edit*/
 .priority .hosted-video-thumbnail:after {
     background-color: #155EEF;
